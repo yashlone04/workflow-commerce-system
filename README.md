@@ -542,7 +542,8 @@ workflow-commerce-system/
   <sub>Designed for enterprise-grade transaction lifecycle management</sub>
 </p>
 ---
-Author : Yash Lone 
-- [LinkedIn]:{www.linkedin.com/in/yash-lone-a08193385}
+## Author 
+** Yash Lone **
+- LinkedIn:[ Yash Lone ](www.linkedin.com/in/yash-lone-a08193385)
 
 
