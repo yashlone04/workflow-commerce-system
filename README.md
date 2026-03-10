@@ -536,14 +536,13 @@ workflow-commerce-system/
 
 ---
 
-## License
-
-MIT
-
----
-
 <p align="center">
   <strong>workflow-commerce-system</strong> — Workflow Orchestration Engine<br>
   <em>Built with Spring Boot 3 + React 19</em><br>
   <sub>Designed for enterprise-grade transaction lifecycle management</sub>
 </p>
+---
+Author : Yash Lone 
+- LinkedIn: [Yash Lone](www.linkedin.com/in/yash-lone-a08193385)
+
+
