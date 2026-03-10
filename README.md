@@ -543,6 +543,6 @@ workflow-commerce-system/
 </p>
 ---
 Author : Yash Lone 
-- LinkedIn: [Yash Lone](www.linkedin.com/in/yash-lone-a08193385)
+- [LinkedIn]:{www.linkedin.com/in/yash-lone-a08193385}
 
 
