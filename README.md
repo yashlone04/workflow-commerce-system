@@ -1,4 +1,4 @@
-# FlowForge
+# workflow-commerce-system
 
 **Production-grade workflow orchestration engine** for managing transactional lifecycles with deterministic state machines.
 
@@ -487,7 +487,7 @@ curl -X POST 'http://localhost:8080/api/workflow/instances/1/transition' \
 ## Project Structure
 
 ```
-FlowForge/
+workflow-commerce-system/
 ├── Backend/
 │   └── src/main/java/com/example/workflowcommerce/
 │       ├── controller/           # REST endpoints (12 controllers)
@@ -517,7 +517,7 @@ FlowForge/
 │       └── utils/
 │           └── axiosInterceptor.js # Global error handling
 ├── screenshots/
-└── FlowForge_Complete_SQL.sql    # Database schema + seed data
+└── workflow-commerce-system_Complete_SQL.sql    # Database schema + seed data
 ```
 
 ---
@@ -534,16 +534,12 @@ FlowForge/
 | **Input Validation** | Jakarta Bean Validation with custom password pattern |
 | **Error Handling** | GlobalExceptionHandler + React ErrorBoundary |
 
----
-
-## License
-
-MIT
-
----
-
-<p align="center">
-  <strong>FlowForge</strong> — Workflow Orchestration Engine<br>
-  <em>Built with Spring Boot 3 + React 19</em><br>
-  <sub>Designed for enterprise-grade transaction lifecycle management</sub>
+## Author
+Yash Lone
+Full Stack Java Developer
+<p>
+  Connect with me:
+  <a href="https://github.com/yashlone04/workflow-commerce-system" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Visit-black?logo=github" />
+  </a>
 </p>
