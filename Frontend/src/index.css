@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --primary-light: #eef2ff;
+  --bg-body: #f9fafb;
+  --bg-surface: #ffffff;
+  --text-main: #111827;
+  --text-secondary: #4b5563;
+  --text-muted: #9ca3af;
+  --border-color: #e5e7eb;
+  --success: #10b981;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --transition: all 0.2s ease;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-premium {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+/* Big-Tech Layout Components */
+.admin-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.admin-card:hover {
+  box-shadow: var(--shadow);
+}
+
+/* Tables - Functional First */
+.table-bigtech {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table-bigtech th {
+  background: #f8fafc;
+  border-bottom: 2px solid var(--border-color);
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.75rem 1.5rem;
+}
+
+.table-bigtech td {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: middle;
+}
+
+.table-bigtech tr:last-child td {
+  border-bottom: none;
+}
+
+.table-bigtech tr:hover td {
+  background-color: #f1f5f9;
+}
+
+/* Status Labels */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.125rem 0.625rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.status-active {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status-inactive {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+/* Buttons - Uber/Stripe Style */
+.btn-primary-tech {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: var(--transition);
+}
+
+.btn-primary-tech:hover {
+  background-color: var(--primary-hover);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-secondary-tech {
+  background-color: white;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: var(--transition);
+}
+
+.btn-secondary-tech:hover {
+  background-color: #f9fafb;
+  border-color: #d1d5db;
+}
+
+.btn-danger-tech {
+  background-color: #fef2f2;
+  color: var(--danger);
+  border: 1px solid #fee2e2;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: var(--transition);
+}
+
+.btn-danger-tech:hover {
+  background-color: #fee2e2;
+}
+
+/* Navigation - Professional Top Bar */
+.navbar-bigtech {
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border-color);
+  padding: 0.75rem 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.nav-link-tech {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 0.875rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.nav-link-tech:hover {
+  background-color: var(--primary-light);
+  color: var(--primary);
+}
+
+.nav-link-tech.active {
+  background-color: var(--primary-light);
+  color: var(--primary);
+}
+
+/* Form Controls */
+.form-input-tech {
+  width: 100%;
+  background-color: #f9fafb;
+  border: 1px solid var(--border-color);
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.75rem;
+  color: var(--text-main);
+  font-size: 0.875rem;
+  transition: var(--transition);
+}
+
+.form-input-tech:focus {
+  outline: none;
+  border-color: var(--primary);
+  background-color: white;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+/* Glassmorphism for Modals (Optional/Subtle) */
+.modal-glass {
+  background: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+.sidebar-tech {
+  width: 240px;
+  background: #f8fafc;
+  border-right: 1px solid var(--border-color);
+  min-height: calc(100vh - 65px);
+}
+
+/* Dashboard Skeleton */
+.dashboard-grid {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}

@@ -1,0 +1,23 @@
+# Environment Variables
+.env
+
+# MacOS
+.DS_Store
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.mvn/wrapper/maven-wrapper.jar
+
+# Node / React
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env
+
+# Temporary files
+backend.zip
+backend.tgz

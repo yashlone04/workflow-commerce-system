@@ -1,0 +1,27 @@
+services:
+  # Backend Spring Boot Service
+  - type: web
+    name: workflow-commerce-backend
+    env: docker
+    rootDir: Backend
+    envVars:
+      - key: DB_URL
+        sync: false
+      - key: DB_USERNAME
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+
+  # Frontend React Service
+  - type: web
+    name: workflow-commerce-frontend
+    env: static
+    rootDir: Frontend
+    buildCommand: npm install && npm run build
+    publishDir: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
