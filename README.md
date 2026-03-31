@@ -1,4 +1,4 @@
-# workflow-commerce-system
+# FlowForge
 
 **Production-grade workflow orchestration engine** for managing transactional lifecycles with deterministic state machines.
 
@@ -487,7 +487,7 @@ curl -X POST 'http://localhost:8080/api/workflow/instances/1/transition' \
 ## Project Structure
 
 ```
-workflow-commerce-system/
+workflow-commerce-/
 ├── Backend/
 │   └── src/main/java/com/example/workflowcommerce/
 │       ├── controller/           # REST endpoints (12 controllers)
@@ -517,7 +517,7 @@ workflow-commerce-system/
 │       └── utils/
 │           └── axiosInterceptor.js # Global error handling
 ├── screenshots/
-└── workflow-commerce-system_Complete_SQL.sql    # Database schema + seed data
+└── FlowForge_Complete_SQL.sql    # Database schema + seed data
 ```
 
 ---
