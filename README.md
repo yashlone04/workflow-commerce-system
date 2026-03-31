@@ -539,7 +539,7 @@ Yash Lone
 Full Stack Java Developer
 <p>
   Connect with me:
-  <a href="https://github.com/yashlone04/workflow-commerce-system" target="_blank">
+  <a href="https://www.linkedin.com/in/yashlone421/" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Visit-black?logo=github" />
   </a>
 </p>
