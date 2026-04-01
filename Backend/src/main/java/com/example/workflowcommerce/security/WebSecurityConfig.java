@@ -111,7 +111,7 @@ public class WebSecurityConfig {
         .map(String::trim)
         .filter(s -> !s.isEmpty())
         .collect(Collectors.toList());
-    configuration.setAllowedOrigins(origins);
+    configuration.setAllowedOriginPatterns(List.of("*"));
     configuration.setAllowedMethods(java.util.Arrays.asList("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
     configuration.setAllowedHeaders(java.util.Arrays.asList("*"));
     configuration.setAllowCredentials(true);
