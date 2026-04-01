@@ -86,7 +86,8 @@ public class WebSecurityConfig {
             .contentTypeOptions(contentType -> {})
         )
         .authorizeHttpRequests(auth -> 
-          auth.requestMatchers("/api/auth/**").permitAll()
+          auth.requestMatchers("/actuator/**").permitAll()
+              .requestMatchers("/api/auth/**").permitAll()
               .requestMatchers("/api/products/public").permitAll()
               .requestMatchers("/api/categories/public").permitAll()
               .requestMatchers("/api/test/**").permitAll()
